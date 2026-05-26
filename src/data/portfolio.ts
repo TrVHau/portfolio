@@ -85,19 +85,19 @@ export const achievements: Achievement[] = [
     title: "ICPC 2024",
     description:
       "Dấu mốc rèn tư duy thuật toán và khả năng xử lý vấn đề dưới áp lực.",
-    image: "/icpc2024.jpg",
+    image: `${import.meta.env.BASE_URL}icpc2024.jpg`,
   },
   {
     title: "ICPC 2025",
     description:
       "Cột mốc tiếp theo trong competitive programming - vẫn đang đi đều tay.",
-    image: "/icpc2025.jpg",
+    image: `${import.meta.env.BASE_URL}icpc2025.jpg`,
   },
   {
     title: "SuiChin Hackathon",
     description:
       "Hackathon Web3 - ý tưởng rõ ràng, flow gọn, pitch được trên sân khấu thật.",
-    image: "/sui-hackathon.jpg",
+    image: `${import.meta.env.BASE_URL}sui-hackathon.jpg`,
   },
 ];
 
